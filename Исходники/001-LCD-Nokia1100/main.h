@@ -10,6 +10,8 @@
 #include "macros.h"
 #include "config.h"
 
+#include "lcd_nokia1100.h"
+
 #include "stm32f0xx.h"
 #include "stm32f0xx_rcc.h"
 
