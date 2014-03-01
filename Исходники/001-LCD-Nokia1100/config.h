@@ -10,7 +10,8 @@
 #define STM32F0XX_MD
 #define HSE_VALUE    			((uint32_t)8000000)
 
-#define assert_param(expr) ((void)0)
+#define	MCU_HCLK_MHZ			((uint32_t)8)
+#define	MCU_APB1_MHZ			((uint32_t)8)
 
 #define assert_param(expr) 		((void)0)
 
